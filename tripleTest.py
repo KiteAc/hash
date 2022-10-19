@@ -9,6 +9,8 @@ import torch.nn as nn
 import torch
 import datasetaug
 
+
+
 class TripletNet(nn.Module):
     def __init__(self, embedding_net):
         super(TripletNet, self).__init__()
